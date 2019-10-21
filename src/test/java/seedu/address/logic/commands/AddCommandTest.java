@@ -171,12 +171,6 @@ public class AddCommandTest {
             throw new AssertionError("This method should not be called.");
         }
 
-        /*
-        @Override
-        public void updateFilteredIncidentList(Predicate<Incident> predicate) {
-            throw new AssertionError("This method should not be called.");
-        }*/
-
         @Override
         public boolean hasIncident(Incident incident) {
             throw new AssertionError("This method should not be called.");
